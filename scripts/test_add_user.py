@@ -27,6 +27,7 @@ class Test_Add_User:
     @allure.step(title="我是步骤")
     @pytest.mark.parametrize('test_num,name,phone',load_data())
     def test_add_user(self, test_num, name ,phone):
+
         allure.attach('描述','描述内容')
         print('用例编号：%s' %test_num)
         self.op.input_text(name , phone)
