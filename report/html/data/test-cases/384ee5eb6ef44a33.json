@@ -1,0 +1,153 @@
+{
+  "uid" : "384ee5eb6ef44a33",
+  "name" : "test_add_user[test_case001--]",
+  "fullName" : "scripts.test_add_user.Test_Add_User#test_add_user",
+  "historyId" : "b4f3efbfe9a2dc3dd65be945e79bb627",
+  "time" : {
+    "start" : 1594447234936,
+    "stop" : 1594447264098,
+    "duration" : 29162
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_step",
+    "time" : {
+      "start" : 1594447232828,
+      "stop" : 1594447234930,
+      "duration" : 2102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594447219120,
+      "stop" : 1594447232827,
+      "duration" : 13707
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是步骤",
+      "time" : {
+        "start" : 1594447234937,
+        "stop" : 1594447264098,
+        "duration" : 29161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24ce3a9a5e50a3d",
+        "name" : "描述内容",
+        "source" : "24ce3a9a5e50a3d.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ {
+        "name" : "test_num",
+        "value" : "'test_case001'"
+      }, {
+        "name" : "name",
+        "value" : "''"
+      }, {
+        "name" : "phone",
+        "value" : "''"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594447309743,
+      "stop" : 1594447313686,
+      "duration" : 3943
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('start_step')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Add_User"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-376HC4F"
+  }, {
+    "name" : "thread",
+    "value" : "4752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "phone",
+    "value" : "''"
+  }, {
+    "name" : "test_num",
+    "value" : "'test_case001'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('start_step')" ]
+  },
+  "source" : "384ee5eb6ef44a33.json",
+  "parameterValues" : [ "''", "''", "'test_case001'" ]
+}

@@ -1,0 +1,10 @@
+Test_data:
+  test_case001:
+    name: ''
+    phone: ''
+  test_case002:
+    name: '#'
+    phone: '^%$#'
+  test_case003:
+    name: '张伟伟'
+    phone: '13898887766'

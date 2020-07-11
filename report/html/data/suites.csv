@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 11 14:01:05 CST 2020","Sat Jul 11 14:01:27 CST 2020","21808","scripts","test_add_user","Test_Add_User","","","test_add_user[test_case002-#-^%$#]",""
+"passed","Sat Jul 11 14:01:28 CST 2020","Sat Jul 11 14:01:49 CST 2020","21711","scripts","test_add_user","Test_Add_User","","","test_add_user[test_case003-张伟伟-13898887766]",""
+"passed","Sat Jul 11 14:00:34 CST 2020","Sat Jul 11 14:01:04 CST 2020","29162","scripts","test_add_user","Test_Add_User","","","test_add_user[test_case001--]",""

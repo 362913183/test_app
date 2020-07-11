@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_add_user",
+      "children" : [ {
+        "name" : "Test_Add_User",
+        "children" : [ {
+          "name" : "test_add_user[test_case001--]",
+          "uid" : "384ee5eb6ef44a33",
+          "parentUid" : "58bf02cd5d2c7e027791d7f841f27bee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594447234936,
+            "stop" : 1594447264098,
+            "duration" : 29162
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "''", "''", "'test_case001'" ]
+        }, {
+          "name" : "test_add_user[test_case002-#-^%$#]",
+          "uid" : "cec1a031cff13ab7",
+          "parentUid" : "58bf02cd5d2c7e027791d7f841f27bee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594447265235,
+            "stop" : 1594447287043,
+            "duration" : 21808
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'#'", "'^%$#'", "'test_case002'" ]
+        }, {
+          "name" : "test_add_user[test_case003-张伟伟-13898887766]",
+          "uid" : "7f7a94d88e4f3cbb",
+          "parentUid" : "58bf02cd5d2c7e027791d7f841f27bee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594447288027,
+            "stop" : 1594447309738,
+            "duration" : 21711
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'张伟伟'", "'13898887766'", "'test_case003'" ]
+        } ],
+        "uid" : "58bf02cd5d2c7e027791d7f841f27bee"
+      } ],
+      "uid" : "c53435dbe7418ed80356267bf0a37b85"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}
