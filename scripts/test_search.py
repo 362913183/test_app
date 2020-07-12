@@ -24,8 +24,6 @@ class Test_Src:
         self.drvier.quit()
     @allure.step('我是测试步骤001')
     @pytest.mark.parametrize("test_num, text",red_yml())
-    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
-    @pytest.allure.testcase('www.baidu.com')
     @allure.issue('这是bug链接')
     def test_src(self, test_num, text):
         allure.attach('描述','我是测试步骤001的描述')
